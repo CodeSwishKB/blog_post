@@ -120,9 +120,11 @@
           <header class="blog-post-header">
             <h2 class="title mb-2">My Coding Journey Starts Here</h2>
             <div class="meta mb-3">
-              <span class="date">Published 3 months ago</span
-              ><span class="time">5 min read</span
-              ><span class="comment"><a href="#">4 comments</a></span>
+              Published
+              <span class="date" data-timestamp="2023-07-23T12:38:56"
+                >Loading...</span
+              ><span class="time">1 min read</span>
+              <!-- <span class="comment"><a href="#">4 comments</a></span> -->
             </div>
           </header>
 
@@ -140,13 +142,28 @@
               I've watch a youtube short about what is the first project that
               make when you are beginner in programming and enhance your skills.
               The programmer in the video said that the perfect project would be
-              a blog post website. So now I started to make it. I know it is
-              hard to back on track again. I rest for one month because of my
-              sprained elbow when I play basketball in intrams in school. We won
-              that game but I injured my elbow last June 21, 2023.
+              a blog post website, thanks to you man
+              <a href="https://www.youtube.com/@CodingWithLewis" target="_blank"
+                >Coding with Lewis</a
+              >
+              - here is the
+              <a
+                href="https://www.youtube.com/shorts/Jm5s6N0R0pM"
+                target="_blank"
+                >video</a
+              >
+              . So now I started to make it. I know it is hard to back on track
+              again. I rest for one month because of my sprained elbow when I
+              play basketball in sportsfest in school. We won that game but I
+              injured my elbow last June 21, 2023. Now Im gonna back my routine
+              and my habits in coding. I miss doing this and I can do this all
+              day.. I'm just rusty and I forgot some components that use in
+              programming especially in JavaScript.. So that I just relearn what
+              I studied in the book title "HEAD FIRST JAVASCRIPT". This book
+              helps me a lot to understand js concepts.
             </p>
 
-            <h3 class="mt-5 mb-3">Code Block Example</h3>
+            <!-- <h3 class="mt-5 mb-3">Code Block Example</h3>
             <p>
               You can get more info at
               <a href="https://highlightjs.org/" target="_blank"
@@ -278,7 +295,7 @@ export  $initHighlight;
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-            </div>
+            </div> -->
           </div>
 
           <nav class="blog-nav nav nav-justified my-5">
@@ -296,16 +313,33 @@ export  $initHighlight;
 
           <div class="blog-comments-section">
             <div id="disqus_thread"></div>
-            <script>
-              /**
-               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT
-               *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR
-               *  PLATFORM OR CMS.
-               *
-               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:
-               *  https://disqus.com/admin/universalcode/#configuration-variables
-               */
-              /*
+            <!-- comment -->
+            <script
+              src="https://giscus.app/client.js"
+              data-repo="Kaylersz/blog_post"
+              data-repo-id="R_kgDOJ-aLcQ"
+              data-category="Announcements"
+              data-category-id="DIC_kwDOJ-aLcc4CYEgN"
+              data-mapping="pathname"
+              data-strict="0"
+              data-reactions-enabled="1"
+              data-emit-metadata="0"
+              data-input-position="bottom"
+              data-theme="preferred_color_scheme"
+              data-lang="en"
+              crossorigin="anonymous"
+              async
+            ></script>
+
+            <!-- <script>
+              
+                RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT
+                THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR
+                PLATFORM OR CMS.
+              
+                LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:
+               https://disqus.com/admin/universalcode/#configuration-variables
+             
 					    var disqus_config = function () {
 					        // Replace PAGE_URL with your page's canonical URL variable
 					        this.page.url = PAGE_URL;  
@@ -332,13 +366,13 @@ export  $initHighlight;
               <a href="https://disqus.com/?ref_noscript" rel="nofollow">
                 comments powered by Disqus.
               </a>
-            </noscript>
+            </noscript> -->
           </div>
           <!--//blog-comments-section-->
         </div>
         <!--//container-->
       </article>
-
+      <!-- 
       <section class="promo-section theme-bg-light py-5 text-center">
         <div class="container">
           <h2 class="title">Promo Section Heading</h2>
@@ -356,8 +390,7 @@ export  $initHighlight;
             /></a>
           </figure>
         </div>
-        <!--//container-->
-      </section>
+      </section> -->
       <!--//promo-section-->
 
       <footer class="footer text-center py-2 theme-bg-dark">
@@ -425,11 +458,10 @@ export  $initHighlight;
 
     <!-- Style Switcher -->
     <script src="assets/js/demo/style-switcher.js"></script>
-    <!-- Year -->
-    <script>
-      var date = new Date()
-      var year = date.getFullYear()
-      document.getElementById("currentYear").innerHTML = year
-    </script>
+
+    <!-- Year footer -->
+    <script src="/assets/js/script.js"></script>
+
+    <!-- Date publish -->
   </body>
 </html>

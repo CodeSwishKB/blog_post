@@ -44,7 +44,7 @@
           <div class="profile-section pt-3 pt-lg-0">
             <img
               class="profile-image mb-3 rounded-circle mx-auto"
-              src="assets/images/me.jpg"
+              src="assets/images/me-removebg.png"
               alt="image"
             />
 
@@ -166,9 +166,10 @@
                   <a href="blog-post.html">My Coding Journey Starts Here</a>
                 </h3>
                 <div class="meta mb-1">
-                  <span class="date">Published 2 days ago</span
-                  ><span class="time">5 min read</span
-                  ><span class="comment"><a href="#">8 comments</a></span>
+                  <span class="date" data-timestamp="2023-07-23T12:38:56"
+                    >Loading...</span
+                  ><span class="time">1 min read</span>
+                  <!-- <span class="comment"><a href="#">8 comments</a></span> -->
                 </div>
                 <div class="intro">
                   A brief summary about why I started my coding (July 23, 2023)
@@ -178,9 +179,42 @@
                   >Read more &rarr;</a
                 >
               </div>
-              <!--//media-body-->
             </div>
-            <!--//media-->
+          </div>
+
+          <!-- Entry 2 -->
+          <div class="item mb-5">
+            <div class="media">
+              <img
+                class="mr-3 img-fluid post-thumb d-none d-md-flex"
+                src="assets/images/blog/gatsby.png"
+                alt="image"
+              />
+              <div class="media-body">
+                <h3 class="title mb-1">
+                  <a href="blog-post.html"
+                    >Im Learning How To Use Gatsby To Publish My Blog Post
+                    Site</a
+                  >
+                </h3>
+                <div class="meta mb-1">
+                  <span class="date" data-timestamp="2023-07-24T09:41:56"
+                    >Loading...</span
+                  ><span class="time">1 min read</span>
+                  <!-- <span class="comment"><a href="#">8 comments</a></span> -->
+                </div>
+                <div class="intro">
+                  New technology to learn to grow and improve my skills. What in
+                  gatsby? - Gatsby is a popular React-based open-source
+                  framework used for building modern, high-performance websites
+                  and web applications. SSG stands for "Static Site Generation,"
+                  which is a key feature of Gatsby.
+                </div>
+                <a class="more-link" href="/blog-posts/02entry-jul-24-23.html"
+                  >Read more &rarr;</a
+                >
+              </div>
+            </div>
           </div>
 
           <!--//item-->
@@ -259,10 +293,6 @@
     <!-- Style Switcher -->
     <script src="assets/js/demo/style-switcher.js"></script>
     <!-- Year -->
-    <script>
-      var date = new Date()
-      var year = date.getFullYear()
-      document.getElementById("currentYear").innerHTML = year
-    </script>
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
