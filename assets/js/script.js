@@ -2,6 +2,20 @@ var date = new Date()
 var year = date.getFullYear()
 document.getElementById("currentYear").innerHTML = year
 
+// greeting
+var greet = document.getElementById("greetings")
+var hourNow = date.getHours()
+
+if (hourNow > 18) {
+  greet.innerText = `Good Evening!`
+} else if (hourNow > 10) {
+  greet.innerText = `Good Afternoon!`
+} else if (hourNow > 0) {
+  greet.innerText = `Good Morning!`
+} else {
+  greet.innerText = `Hello`
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   const publishDateElements = document.querySelectorAll(".date")
 
