@@ -154,15 +154,22 @@
           </div>
           <form
             name="submit-to-google-sheet"
-            class="signup-form form-inline justify-content-center pt-3"
+            class="signup-form justify-content-center pt-3"
           >
             <div class="form-group">
+              <label class="sr-only">Name</label>
+              <input
+                type="name"
+                name="Name"
+                class="form-control mr-md-1 semail"
+                placeholder="Enter your name"
+              />
               <label class="sr-only">Your email</label>
               <input
                 type="email"
                 name="Email"
                 class="form-control mr-md-1 semail"
-                placeholder="Enter email"
+                placeholder="Enter email address"
               />
             </div>
             <button type="submit" class="btn btn-primary">Subscribe</button>
@@ -356,7 +363,6 @@
     </div>
     <!--//main-wrapper-->
 
-    <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
     <div id="config-panel" class="config-panel d-none d-lg-block">
       <div class="panel-inner">
         <a
